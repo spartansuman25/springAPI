@@ -1,0 +1,6 @@
+curl -X PUT -H "Content-Type: application/json" -d "{\"id\":1,\"name\":\"iPad\",\"price\":888}" http://localhost:8080/products/1
+
+curl -X POST -H "Content-Type: application/json" -d "{\"name\":\"iPad 360\",\"price\":399.99}" http://localhost:8080/products
+
+curl http://localhost:8080/products
+
